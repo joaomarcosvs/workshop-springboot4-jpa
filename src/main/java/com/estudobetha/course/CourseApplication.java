@@ -3,7 +3,7 @@ package com.estudobetha.course;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = "com.estudobetha")
+@SpringBootApplication
 public class CourseApplication {
 
 	public static void main(String[] args) {
