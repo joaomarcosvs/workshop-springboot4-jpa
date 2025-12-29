@@ -15,10 +15,12 @@ public class UserService {
     private UserRepository repository;
 
     public List<User> findAll() {
+
         return repository.findAll();
     }
 
     public User findeById(Long id) {
+
         Optional<User> obj = repository.findById(id);
         return obj.get();
     }
